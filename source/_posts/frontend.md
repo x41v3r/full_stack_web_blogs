@@ -18,7 +18,7 @@ tags:
 <head>
     <meta charset="utf-8" />  <!-- specify the document's character encoding -->
     <meta name="author" content="Chris Mills" />  <!-- add an author  -->
-    <meta name="description" content="The MDN Web Docs Learning Area aims to provide complete beginners to the Web with all they need to know to g    et started with developing websites and applications." />  <!-- add a description -->                                                              16
+    <meta name="description" content="The MDN Web Docs Learning Area aims to provide complete beginners to the Web with all they need to know to g    et started with developing websites and applications." />  <!-- add a description -->
     <title>My test page</title>  <!-- add a title -->
 </head>
 ```
@@ -161,6 +161,4 @@ em {
 ## 3.2 JavaScript building blocks
 
 # 4 TypeScript
-
-
 
