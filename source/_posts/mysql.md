@@ -28,7 +28,8 @@ In this syntax:
 
 &emsp;&emsp;When executing the `SELECT` statement, MySQL evaluates the `FROM` clause before the `SELECT` clause:
 
-![mysql-select-from](./assets/mysql-select-from.png)
+<!--![mysql-select-from](/images/mysql-select-from.png)-->
+<img src="/images/mysql-select-from.png" >
 
 ### 2.1.2 ORDER BY
 
@@ -64,7 +65,8 @@ In this case, the `ORDER BY` clause:
 
 When executing the `SELECT` statement with an `ORDER BY` clause, MySQL always evaluates the `ORDER BY` clause after the `FROM` and `SELECT` clauses:
 
-![mysql-select-from-order-by](./assets/mysql-select-from-order-by.png)
+<img src="/images/mysql-select-from-order-by.png" width="100">
+<!-- ![mysql-select-from-order-by](./assets/mysql-select-from-order-by.png) -->
 
 ### 2.1.3 WHERE
 
