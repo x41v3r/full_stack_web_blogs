@@ -61,9 +61,84 @@ A CSS selector is a pattern of elements and other terms that tell the browser *w
 
 The element or elements which are selected by the selector are referred to as the subject of the selector.
 
+```html
+<body>
+    <h1 class="heading">Selectors</h1>
+    <p id="one">
+        Veggies es bonus vobis, proinde vos postulo essum magis
+        <span class="highlight first-para">kohlrabi welsh onion</span> daikon amaranth tatsoi tomatillo melon azuki
+        bean garlic.
+    </p>
+
+    <p class="highlight">
+        Gumbo beet greens corn soko <strong>endive</strong> gumbo gourd. Parsley
+        shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra
+        wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+    </p>
+
+    <p>
+        Turnip greens yarrow ricebean rutabaga <em>endive cauliflower</em> sea lettuce
+        kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter
+        purslane kale. Celery potato scallion desert raisin horseradish spinach
+    </p>
+</body>
+```
+
 ### 1.3.2 Type selectors
 
+A type selector is sometimes referred to as a *tag name selector* or *element selector* because it selects an HTML tag/element in the document.
 
+```css
+body {
+    font-family: sans-serif;
+}
+
+span {
+    background-color: yellow;
+}
+
+strong {
+    color: rebeccapurple;
+}
+
+em {
+    color: rebeccapurple;
+}
+```
+
+### 1.3.3 Class selectors
+
+The case-sensitive class selector starts with a dot `.` character. It will select everything in the document with that class applied to it.
+
+```css
+body {
+    font-family: sans-serif;
+}
+
+.highlight {
+    background-color: yellow;
+}
+```
+
+### 1.3.4 ID selectors
+
+The case-sensitive ID selector begins with a # rather than a dot character, but is used in the same way as a class selector. The difference is that an ID can be used only once per page, and elements can only have a single id value applied to them.
+
+```css
+body {
+  font-family: sans-serif;
+}
+
+#one {
+  background-color: yellow;
+}
+
+h1#heading {
+  color: rebeccapurple;
+}
+```
+
+### Attribute selectors
 
 ## 1.4 Combinators
 
